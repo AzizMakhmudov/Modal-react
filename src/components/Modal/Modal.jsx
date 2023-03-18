@@ -10,7 +10,7 @@ export default function Modal() {
 
   return (
     <div>
-      <button onClick={toggleModal} className="modal-open">Open Modal</button>
+      <button onClick={toggleModal} className="modal-open">Open Modal useState</button>
       {Modal && (
         <div className="modal">
           <div className="overlay" onClick={toggleModal}></div>
